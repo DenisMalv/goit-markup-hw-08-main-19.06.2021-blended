@@ -1,0 +1,37 @@
+/* ========================== clients start  ========================== */
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 91px;
+}
+
+.clients__logo {
+  display: block;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.clients__logo__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  fill: #afb1b8;
+
+  transition-property: fill, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: var(--button-backgr-color);
+    fill: var(--text-color-accent);
+  }
+}
+/* ========================== clients end =========================== */
